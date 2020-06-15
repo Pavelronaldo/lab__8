@@ -1,15 +1,20 @@
-//
-//  main.cpp
-//  8
-//
-//  Created by Pavel Ronaldo on 6/15/20.
-//  Copyright © 2020 Pavel. All rights reserved.
-//
+
 
 #include <iostream>
+#include <cstdlib>
+#include <list>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+#include "FHeap.hpp"
+#include "FHeap.cpp"
+
+
+int main()
+{
+    FibonachiHeap H;
+    list<Node*> heap;
+    H.Function(heap);
     return 0;
 }
+

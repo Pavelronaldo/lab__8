@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ABA390224976CCC00D299D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA390124976CCC00D299D0 /* main.cpp */; };
+		4ABA390E24976D1B00D299D0 /* FHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA390B24976D1B00D299D0 /* FHeap.cpp */; };
+		4ABA390F24976D1B00D299D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA390D24976D1B00D299D0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		4ABA38FE24976CCC00D299D0 /* 8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 8; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ABA390124976CCC00D299D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4ABA390B24976D1B00D299D0 /* FHeap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FHeap.cpp; sourceTree = "<group>"; };
+		4ABA390C24976D1B00D299D0 /* FHeap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FHeap.hpp; sourceTree = "<group>"; };
+		4ABA390D24976D1B00D299D0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		4ABA390024976CCC00D299D0 /* 8 */ = {
 			isa = PBXGroup;
 			children = (
-				4ABA390124976CCC00D299D0 /* main.cpp */,
+				4ABA390D24976D1B00D299D0 /* main.cpp */,
+				4ABA390B24976D1B00D299D0 /* FHeap.cpp */,
+				4ABA390C24976D1B00D299D0 /* FHeap.hpp */,
 			);
 			path = 8;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABA390224976CCC00D299D0 /* main.cpp in Sources */,
+				4ABA390F24976D1B00D299D0 /* main.cpp in Sources */,
+				4ABA390E24976D1B00D299D0 /* FHeap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
